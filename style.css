@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100vw;
+    height: 10vh;
+    background-color: #254D32;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.images{
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+.gameButtons{
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons{
+    border-width: 0;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e2ebb6;
+}
+.countAndOutput{
+    height: 200px;
+    width: 55vw;
+    margin-top: 1%;
+}
+.counts{
+    height: 150px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#yourScore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: x-large;
+    width: 200px;
+}
+#CompScore{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+}
+#winCount{
+    width: 200px;
+    font-size: x-large;
+    text-align: center;
+}
+#lossCount{
+    width: 200px;
+    font-size: x-large;
+    text-align: center;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#output{
+    height: 60px;
+    width: max-content;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #181D27;
+}
+.buttons:hover{
+    /* opacity: 0.5; */
+    cursor: pointer;
+    background-color: #254D32;
+}
