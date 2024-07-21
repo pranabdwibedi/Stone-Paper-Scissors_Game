@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Stone Paper Scissor</h1>
+    </div>
+    <div class="container">
+      <div class="gameButtons">
+        <button class="buttons" id="stone">
+          <img src="/Stone.png" alt="Stone" class="images" />
+        </button>
+        <button class="buttons" id="paper">
+          <img src="/Paper.png" alt="Paper" class="images" />
+        </button>
+        <button class="buttons" id="scissor">
+          <img src="/Scissor.png" alt="Scissor" class="images" />
+        </button>
+      </div>
+      <div class="countAndOutput">
+        <div class="counts">
+          <div id="yourScore">
+            <p id="winCount"><b>0</b></p>
+            <p id="you"><b>YOU</b></p>
+          </div>
+          <div id="CompScore">
+            <p id="lossCount"><b>0</b></p>
+            <p id="comp"><b>COMPUTER</b></p>
+          </div>
+        </div>
+        <div class="output">
+          <p id="output">Pick Your Move</p>
+        </div>
+      </div>
+    </div>
+    <script src="/Stone-Paper-Scissors_Game/game.js"></script>
+  </body>
+</html>
